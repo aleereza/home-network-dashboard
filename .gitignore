@@ -1,0 +1,60 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment directories
+venv/
+env/
+.venv/
+
+# Airflow logs and temporary files
+airflow/logs/
+airflow/airflow.db
+airflow/airflow-webserver.pid
+
+# dbt target directory (compiled SQL, manifest files, etc.)
+dbt/target/
+
+# Local environment and configuration files
+.env
+.env.*
+*.local
+*.secret
+secrets/
+
+# Build and distribution artifacts
+build/
+dist/
+*.egg-info/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Docker-related
+docker/*.log
+docker/.cache/
+
+# BigQuery credential files if stored locally
+*.json
+!docs/*.json  # if you have json files in docs you don't want to ignore, adjust accordingly
+
+# Node_modules if any front-end or additional tooling is used
+node_modules/
+
+# Coverage reports and test artifacts
+.coverage
+htmlcov/
+coverage-report/
+test-output/
+junit.xml
+
+# Logs
+*.log
+
+# Ignore IDE/project specific files
+.vscode/
+.idea/
