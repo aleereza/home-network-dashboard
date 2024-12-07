@@ -23,6 +23,7 @@ This project also incorporates a variety of best practices. Sensitive credential
 
 This repository is organized by functional domains to keep it clean, maintainable, and easy to navigate:
 
+```plaintext
 home-network-dashboard/
 ├─ airflow/
 │ ├─ dags/ # Airflow DAGs orchestrating data extraction, loading, and transformation
@@ -40,6 +41,6 @@ home-network-dashboard/
 └─ src/
   ├─ data_collection/ # Python scripts and modules to fetch data from network devices
   └─ data_transformation/ # Additional Python modules or logic for data processing
-
+```
 
 Each directory aligns with a distinct part of the workflow. Together, they form a cohesive, production-like data pipeline that showcases the full data engineering lifecycle in the context of a home network environment.
